@@ -1,0 +1,21 @@
+.loadingAnimation {
+  position: fixed;
+  top: calc(50vh + 60px);
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, calc(-50% - 30px));
+}
+
+@media only screen and (max-width: 600px) {
+  .loadingAnimation {
+    top: calc(50vh + 160px);
+    height: calc(100vh - 160px);
+    transform: translate(-50%, calc(-50% - 80px));
+  }
+}

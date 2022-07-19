@@ -1,0 +1,241 @@
+.subredditCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.subredditCard .subredditLeft {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  height: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 60px;
+  width: auto;
+  max-width: 270px;
+}
+
+.subredditCard .subredditLeft .createNewPost div button {
+  border: 0;
+  width: calc(100% - 20px);
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 6.5px;
+}
+
+.subredditCard .subredditLeft .createNewPost div button:hover {
+  border: 0;
+}
+
+.subredditCard .subredditLeft .subredditInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: auto;
+  margin: 20px 10px;
+  padding: 20px;
+  height: 177px;
+  text-align: left;
+  border: 1.5px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+
+.subredditCard .subredditLeft .subredditInfo h3 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.subredditCard .subredditLeft .subredditInfo p {
+  max-height: 50%;
+  overflow-y: scroll;
+  font-size: 1.1rem;
+}
+
+.subredditCard .subredditLeft .subredditInfo p::-webkit-scrollbar {
+  display: none;
+}
+
+.subredditCard .subredditLeft .subredditInfo button {
+  text-align: center;
+  margin: 10px auto 0;
+  width: 100%;
+}
+
+.subredditCard .subredditPostPreview {
+  width: 60%;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  margin: 20px 10px;
+  width: auto;
+  height: auto;
+  min-height: 177px;
+  text-align: center;
+  border: 1.5px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass .postCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass .postCard .postVote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+  height: 100%;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  font-size: 1.2rem;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass .postCard .postRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass .postCard .postRight .postHeader {
+  font-size: 1rem;
+  width: auto;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass .postCard .postRight .postHeader span {
+  text-decoration: underline;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass .postCard .postRight .postHeader .subredditTitle:hover {
+  cursor: pointer;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass .postCard .postRight .postBody {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass .postCard .postRight .postBody h3 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass .postCard .postRight .postBody h3:hover {
+  cursor: pointer;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass .postCard .postRight .postBody p {
+  font-size: 1.1rem;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass .postCard .postRight .postFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 10%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.subredditCard .subredditPostPreview .subredditPostPreviewClass .postCard .postRight .postFooter span:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .subredditCard {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .subredditCard .subredditLeft {
+    min-width: 90%;
+    max-width: 90%;
+    margin: auto;
+    -ms-flex-item-align: unset;
+        -ms-grid-row-align: unset;
+        align-self: unset;
+    height: unset;
+    position: unset;
+    top: unset;
+  }
+  .subredditCard .subredditLeft .subredditInfo {
+    width: 100%;
+    margin: 20px 0 20px 0;
+  }
+  .subredditCard .subredditLeft .createNewPost {
+    width: 100%;
+    margin: 20px auto 0;
+  }
+  .subredditCard .subredditLeft .createNewPost div {
+    width: 100%;
+    margin: 0;
+  }
+  .subredditCard .subredditLeft .createNewPost div button {
+    width: 100%;
+  }
+  .subredditCard .subredditPostPreview {
+    min-width: 90%;
+    max-width: 90%;
+    margin: auto;
+    width: 90%;
+  }
+  .subredditCard .subredditPostPreview .subredditPostPreviewClass {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+/*# sourceMappingURL=subreddit.css.map */

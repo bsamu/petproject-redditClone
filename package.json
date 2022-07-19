@@ -1,0 +1,11 @@
+{
+  "name": "fapi-exam-project-2-general-bsamu",
+  "version": "1.0.0",
+  "description": "To start, do the following steps:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

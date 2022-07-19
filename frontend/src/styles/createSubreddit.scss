@@ -1,0 +1,33 @@
+.createSubCard {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+  width: 70%;
+  max-width: 600px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  .greet {
+    font-size: 1.1rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .createSubInput {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  button {
+    width: 30%;
+    min-width: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .createSubCard {
+    width: 90%;
+  }
+}

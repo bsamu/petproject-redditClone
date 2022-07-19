@@ -1,0 +1,743 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "defaultTitle",
+    "description": "defaultDescription",
+    "version": "0.1"
+  },
+  "servers": [
+    {
+      "url": "http://[::1]:8080"
+    }
+  ],
+  "paths": {
+    "/api/subreddit/addMember/62c21be0bde4b064ee4780f4": {
+      "patch": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/addMember_62c21be0bde4b064ee4780f4_body"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\r\n\t\"subData\": {\r\n\t\t\"title\": \"Angular - \",\r\n\t\t\"shortDescription\": \"Angular subreddit\",\r\n\t\t\"description\": \"Angular subreddit not so shortDescription\"\r\n\t}\r\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/post/62c21d00bde4b064ee478111": {
+      "get": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/subreddit/addAdmin/62c21be0bde4b064ee4780f4": {
+      "patch": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/addAdmin_62c21be0bde4b064ee4780f4_body"
+              },
+              "examples": {
+                "0": {
+                  "value": "\r\n{\r\n\t\"newAdmin\": \"Samu\"\r\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/subreddit/removeMember/62c21be0bde4b064ee4780f4": {
+      "delete": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/subreddit/62c21be0bde4b064ee4780f4": {
+      "get": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector"
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/comment/create/62c21d00bde4b064ee478111/62c21d00bde4b064ee478111": {
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/62c21d00bde4b064ee478111_62c21d00bde4b064ee478111_body"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\r\n\t\"newComment\": {\r\n\t\t\"description\": \"Comment - Yo, this is my second React comment\"\r\n\t}\r\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/post/edit/62c21d00bde4b064ee478111": {
+      "patch": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/edit_62c21d00bde4b064ee478111_body"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\r\n\t\"updatePost\": {\r\n\t\t\"description\": \"I updated my description - Work\"\r\n\t}\r\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/comment/edit/62c21dafbde4b064ee47811c": {
+      "patch": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/edit_62c21dafbde4b064ee47811c_body"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\r\n\t\"updateComment\": {\r\n\t\t\"description\": \"- Comment - Yo, this is my first, EDITED, NESTED React comment\"\r\n\t}\r\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/home": {
+      "get": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/vote/updateVote/62c21dafbde4b064ee47811c": {
+      "patch": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/comment/delete/62c21dafbde4b064ee47811c": {
+      "delete": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/subreddit/create": {
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/subreddit_create_body"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\r\n\t\"subData\": {\r\n\t\t\"title\": \"Angular - \",\r\n\t\t\"shortDescription\": \"Angular subreddit\",\r\n\t\t\"description\": \"Angular subreddit not so shortDescription\"\r\n\t}\r\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/post/create/62c21be0bde4b064ee4780f4": {
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/create_62c21be0bde4b064ee4780f4_body"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\r\n\t\"newPost\": {\r\n\t\t\"title\": \"Swagger\",\r\n\t\t\"description\": \"Work\"\r\n\t}\r\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/comment/create/62c21d00bde4b064ee478111/62c21dafbde4b064ee47811c": {
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/62c21d00bde4b064ee478111_62c21dafbde4b064ee47811c_body"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\r\n\t\"newComment\": {\r\n\t\t\"description\": \"Comment - Yo, this is my first NESTED React comment\"\r\n\t}\r\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/vote/newVote/62c21dafbde4b064ee47811c": {
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/newVote_62c21dafbde4b064ee47811c_body"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\r\n\t\"voteValue\": 1\r\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/subreddit/edit/62c21be0bde4b064ee4780f4": {
+      "patch": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/edit_62c21be0bde4b064ee4780f4_body"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\r\n\t\"subData\": {\r\n\t\t\"description\": \"This is a new description\"\r\n\t}\r\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    },
+    "/api/vote/deleteVote/62c21dafbde4b064ee47811c": {
+      "delete": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://[::1]:8080"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://[::1]:8080"
+        }
+      ]
+    }
+  },
+  "components": {
+    "schemas": {
+      "apisubredditaddMember62c21be0bde4b064ee4780f4_subData": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "shortDescription": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          }
+        },
+        "example": null
+      },
+      "addMember_62c21be0bde4b064ee4780f4_body": {
+        "type": "object",
+        "properties": {
+          "subData": {
+            "$ref": "#/components/schemas/apisubredditaddMember62c21be0bde4b064ee4780f4_subData"
+          }
+        }
+      },
+      "addAdmin_62c21be0bde4b064ee4780f4_body": {
+        "type": "object",
+        "properties": {
+          "newAdmin": {
+            "type": "string"
+          }
+        }
+      },
+      "apicommentcreate62c21d00bde4b064ee47811162c21d00bde4b064ee478111_newComment": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          }
+        },
+        "example": null
+      },
+      "62c21d00bde4b064ee478111_62c21d00bde4b064ee478111_body": {
+        "type": "object",
+        "properties": {
+          "newComment": {
+            "$ref": "#/components/schemas/apicommentcreate62c21d00bde4b064ee47811162c21d00bde4b064ee478111_newComment"
+          }
+        }
+      },
+      "edit_62c21d00bde4b064ee478111_body": {
+        "type": "object",
+        "properties": {
+          "updatePost": {
+            "$ref": "#/components/schemas/apicommentcreate62c21d00bde4b064ee47811162c21d00bde4b064ee478111_newComment"
+          }
+        }
+      },
+      "edit_62c21dafbde4b064ee47811c_body": {
+        "type": "object",
+        "properties": {
+          "updateComment": {
+            "$ref": "#/components/schemas/apicommentcreate62c21d00bde4b064ee47811162c21d00bde4b064ee478111_newComment"
+          }
+        }
+      },
+      "subreddit_create_body": {
+        "type": "object",
+        "properties": {
+          "subData": {
+            "$ref": "#/components/schemas/apisubredditaddMember62c21be0bde4b064ee4780f4_subData"
+          }
+        }
+      },
+      "apipostcreate62c21be0bde4b064ee4780f4_newPost": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          }
+        },
+        "example": null
+      },
+      "create_62c21be0bde4b064ee4780f4_body": {
+        "type": "object",
+        "properties": {
+          "newPost": {
+            "$ref": "#/components/schemas/apipostcreate62c21be0bde4b064ee4780f4_newPost"
+          }
+        }
+      },
+      "62c21d00bde4b064ee478111_62c21dafbde4b064ee47811c_body": {
+        "type": "object",
+        "properties": {
+          "newComment": {
+            "$ref": "#/components/schemas/apicommentcreate62c21d00bde4b064ee47811162c21d00bde4b064ee478111_newComment"
+          }
+        }
+      },
+      "newVote_62c21dafbde4b064ee47811c_body": {
+        "type": "object",
+        "properties": {
+          "voteValue": {
+            "type": "integer"
+          }
+        }
+      },
+      "edit_62c21be0bde4b064ee4780f4_body": {
+        "type": "object",
+        "properties": {
+          "subData": {
+            "$ref": "#/components/schemas/apicommentcreate62c21d00bde4b064ee47811162c21d00bde4b064ee478111_newComment"
+          }
+        }
+      }
+    }
+  }
+}
