@@ -1,10 +1,13 @@
 # README.md
 
-## Start the program
+## Short procejt description
 
-### Start the program with vsc
+This is my petproject for the Full-Stack API developer exam.
+The concept is pretty simple, I want to reproduce reddit with its functionalities. After the exam I will keep refining the code and give more functions.
 
-To start, do the following steps:
+To see the program working follow the upcoming steps or [click here](https://jellyfish-app-qjhwm.ondigitalocean.app/) to see the dockerized version.
+
+## To start the program, follow this guide:
 
 #### 1. step
 
